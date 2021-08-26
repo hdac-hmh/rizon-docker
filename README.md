@@ -1,10 +1,13 @@
-# rizon-docker
+### rizon-docker
 
-# This version support to make the deploy own network (https://docs.rizon.world/getting-started/deploy-own-network)
+### This version support to make the deploy own network (https://docs.rizon.world/getting-started/deploy-own-network)
 
-# Make docker image
+### Make docker image
+```bash
 $ docker build -t hdachmh/rizon-node:v0.2.3 .
+```
 
-# Run docker image
+### Run docker image
+```bash
 $ docker run --name my-node -it hdachmh/rizon-node:v0.2.3 /bin/bash -c "/root/rizon-setup.sh"
-
+```
